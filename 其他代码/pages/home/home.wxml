@@ -1,0 +1,33 @@
+
+<!--<view class="container">
+
+  <form bindsubmit="showList">
+    <input type="text" name="userinput"></input>
+    <button form-type="submit">提交</button>
+  </form>
+
+</view>-->
+
+<view>
+  <camera device-position="back" style="height:540rpx;">
+
+    <cover-view style="padding:8rpx;">
+      <cover-view 
+        style="height:426rpx;border:solid 8rpx #dfdfdf;"
+        >
+      </cover-view>
+    </cover-view>
+
+    <cover-view 
+      style="margin-top: 2rpx;height:80rpx;background:rgba(23,23,25, 0.5);">
+      <button
+        style="width:80rpx;height:80rpx;line-height:80rpx;border-radius:40rpx;">[ - ]</button>
+
+    </cover-view>
+  </camera>
+  
+</view>
+
+<view class="container">
+  <image src="{{tempImage}}" mode="widthFix"></image>
+</view>

@@ -1,0 +1,7 @@
+<view class="container">
+  <camera
+    device-position="back"
+    style="width:100%;height:450rpx;"
+    >
+  </camera>
+</view>

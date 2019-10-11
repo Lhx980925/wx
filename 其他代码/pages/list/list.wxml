@@ -1,0 +1,4 @@
+
+<view class="container">
+  <text>User input: {{kwd}}</text>
+</view>
